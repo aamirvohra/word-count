@@ -1,0 +1,29 @@
+{
+  "name": "word-count",
+  "version": "0.0.1",
+  "description": "A word count directive which tells you the current length of the element and if a max character lenght is set it will prevent default action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamirvohra/word-count.git"
+  },
+  "keywords": [
+    "Word",
+    "Character",
+    "Angular2",
+    "Typescript"
+  ],
+  "author": "Aamir Vohra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aamirvohra/word-count/issues"
+  },
+  "homepage": "https://github.com/aamirvohra/word-count#readme",
+  "dependencies": {
+    "@angular/common": "2.2.4",
+    "@angular/http": "2.2.4"
+  }
+}

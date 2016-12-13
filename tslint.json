@@ -1,0 +1,48 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "no-constructor-vars": false,
+    "comment-format": [true, "check-space"],
+    "indent": [true, "spaces"],
+    "no-duplicate-variable": true,
+    "no-eval": true,
+    "no-internal-module": true,
+    "no-var-keyword": true,
+    "no-unused-variable": [true],
+    "no-console": false,
+    "no-shadowed-variable": false,
+    "one-line": [true, "check-open-brace", "check-whitespace"],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "quotemark": [true, "single"],
+    "semicolon": false,
+    "triple-equals": [true, "allow-null-check"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "member-ordering": false,
+    "no-string-literal": false,
+    "interface-name": false,
+    "typedef-whitespace": [true, {
+      "call-signature": "nospace",
+      "index-signature": "nospace",
+      "parameter": "nospace",
+      "property-declaration": "nospace",
+      "variable-declaration": "nospace"
+    }],
+    "variable-name": [true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ],
+    "whitespace": [true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type"
+    ]
+  },
+  "rulesDirectory": [
+
+  ]
+}
